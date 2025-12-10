@@ -23,7 +23,7 @@ env/
 ENV/
 
 main*
-vft.py
+try_vft.py
 vvft_final.py
 
 # IDE / editor folders
