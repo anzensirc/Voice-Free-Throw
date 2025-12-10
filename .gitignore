@@ -21,6 +21,7 @@ venv/
 env/
 .venv/
 ENV/
+vft2.py
 
 main*
 try_vft.py
