@@ -22,7 +22,7 @@ env/
 .venv/
 ENV/
 vft2.py
-
+report2.pdf
 main*
 try_vft.py
 vvft_final.py

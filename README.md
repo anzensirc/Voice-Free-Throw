@@ -5,6 +5,7 @@
 **Nama:** Reynaldi Cristian Simamora  
 **NIM:** 122140116  
 **Github :** [Anzensirc](https://github.com/anzensirc)  
+**Video Demo:** [Youtube](https://youtu.be/UhmLmcsMPeM) [Drive](https://drive.google.com/file/d/1GB0i9L_ECLpp84F9TP0-GA4owafVbWmH/view?usp=sharing)  
 **Mata Kuliah:** Sistem Teknologi Multimedia  
 **Kode MK :** IF25-40305   
 **Program Studi:** Teknik Informatika  
