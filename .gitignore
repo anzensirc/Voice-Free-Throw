@@ -30,7 +30,7 @@ vvft_final.py
 # IDE / editor folders
 .vscode/
 .idea/
-
+report/
 # OS generated files
 .DS_Store
 Thumbs.db

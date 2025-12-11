@@ -1,14 +1,7 @@
-import os
 import time
 import random
-import threading
-from collections import deque
-from dataclasses import dataclass, field
-from typing import Optional, List, Tuple
 import cv2
-import mediapipe as mp
 import numpy as np
-import pyaudio
 from config import *
 from audio_processor import AudioProcessor
 from hand_tracker import HandTracker
@@ -18,24 +11,6 @@ from audio_player import AudioPlayer
 from game_state import GameState
 from reset_game import reset_game_state
 from kernel_video import enhance_frame
-# @dataclass
-# class GameState:
-#     score: int = 0
-#     miss: int = 0
-#     best_score: int = 0
-#     shooting: bool = False
-#     target_accuracy: int = field(default_factory=lambda: random.randint(40, 95))
-#     ball: Optional["Ball"] = None
-#     game_active: bool = False
-#     game_over: bool = False
-#     start_time: float = 0.0
-#     remaining_time: float = GAME_DURATION
-#     last_shot_accuracy: Optional[float] = None
-#     shot_result: Optional[str] = None
-#     result_display_time: float = 0.0
-
-# Pemrosesan Audio dan ekstraksi level suara
-# ==================== BALL ====================
 
 def main():
     """Fungsi utama untuk menjalankan game Voice Free Throw."""
