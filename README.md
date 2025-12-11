@@ -73,12 +73,21 @@ cd Voice-Free-Throw
 
 ### 2️⃣ Install Dependencies
 
-Pastikan Python pada lokal atau conda 3.12+ atau 3.12.9 telah terpasang.
-```bash
-## Jika menggunakan conda aktifkan terlebih dahulu
-conda activate env
+Pastikan menggunakan Python versi yang kompatibel dengan MediaPipe, disarankan Python 3.12.9 atau versi lain antara 3.10 hingga 3.12.
+Jika versi Python kamu lebih tinggi (misal 3.13), sebaiknya buat environment baru dengan conda versi yang direkomendasikan di bawah ini.
 
-## install requirements
+```bash
+# Contoh membuat environment dengan Python 3.12.9 (direkomendasikan)
+conda create -n vft_env python=3.12.9 -y
+conda activate vft_env
+
+# Atau alternatif versi Python lain yang kompatibel:
+# conda create -n vft_env python=3.11.7 -y
+# conda create -n vft_env python=3.10.11 -y
+# conda create -n vft_env python=3.9.16 -y
+
+
+# Instal requirements
 pip install -r requirements.txt
 ```
 
